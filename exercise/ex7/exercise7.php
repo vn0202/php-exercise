@@ -1,4 +1,5 @@
-<?php 
+ <?php 
+ // write a  program to loop over the json data.
 function loopToJsonData($jsonData)
 {
    $json= json_decode($jsonData);
@@ -25,6 +26,10 @@ $json ='[
       }
 
 ]';
-// $json= '{"foo":123}';
+
 loopToJsonData($json);
-// var_dump(json_decode($json));
+// output
+
+// John Giang is 15.Study at Ahlcon public school
+// Vu Nghia is 18.Study at MLA
+// Kevil is 20.Study at MTA

@@ -1,4 +1,5 @@
 <?php
+// 1. Write a program to compare between things that are not integers. 
 
  function compareAnother(...$rest)
  {
@@ -22,4 +23,8 @@
 $str2 = "008";
 $str3 = "00007-STR";
  
- compareAnother(32,4,34,2,12,13);
+ compareAnother($str1, $str2,$str3);
+ // input: $str1= "000004", $str2= "008", $str3= "00007-STR"
+ // output:008 greater than 00007-STR,00004
+  //        00007-STR greater than 00004
+
