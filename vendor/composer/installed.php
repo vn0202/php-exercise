@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '428322df1b4487fa23ee3c3a29809ad04f82dcb2',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '428322df1b4487fa23ee3c3a29809ad04f82dcb2',
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tc-lib-barcode' => array(
+            'pretty_version' => '1.17.11',
+            'version' => '1.17.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tc-lib-barcode',
+            'aliases' => array(),
+            'reference' => 'aca01b1be997404aa14e327f70ef51299423b6c6',
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tc-lib-color' => array(
+            'pretty_version' => '1.14.10',
+            'version' => '1.14.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tc-lib-color',
+            'aliases' => array(),
+            'reference' => 'ebe0b169122789e4ed6a78d7acd6cf162329c7e4',
+            'dev_requirement' => false,
+        ),
+    ),
+);
