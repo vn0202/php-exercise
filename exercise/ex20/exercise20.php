@@ -24,11 +24,11 @@ $source = " Vũ Văn Nghĩa ";
 
 // ser properties
 
-$qrcodeObj = $barcode->getBarcodeObj('QRCODE,H', $source, - 16, - 16, 'black', array(
-    - 2,
-    - 2,
-    - 2,
-    - 2
+$qrcodeObj = $barcode->getBarcodeObj('QRCODE,H', $source, -40, -40, 'black', array(
+    -2,
+    -2,
+    -2,
+    -2
 ))->setBackgroundColor('#f5f5f5');
 
 // generate qrcode
